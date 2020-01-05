@@ -99,7 +99,7 @@
                 {
                   "name": "Reached",
                   "input": false,
-                  "output": false,
+                  "output": true,
                   "visible": true,
                   "editable": true
                 }
@@ -157,7 +157,7 @@
                 {
                   "name": "Reached",
                   "input": false,
-                  "output": false,
+                  "output": true,
                   "visible": true,
                   "editable": true
                 }
@@ -179,21 +179,21 @@
                 {
                   "name": "Answer 1",
                   "input": false,
-                  "output": false,
+                  "output": true,
                   "visible": true,
                   "editable": true
                 },
                 {
                   "name": "Answer 2",
                   "input": false,
-                  "output": false,
+                  "output": true,
                   "visible": true,
                   "editable": true
                 },
                 {
                   "name": "Answer 3",
                   "input": false,
-                  "output": false,
+                  "output": true,
                   "visible": true,
                   "editable": true
                 }
