@@ -21,8 +21,33 @@
       "to": "c1adea17-c7ac-4d28-a7d7-48828f420832"
     },
     {
-      "id": "1a9afa5f-cd53-437d-b462-790ee5fe14fb",
+      "id": "cd42503b-83f9-4f5c-ba3f-162fec9af649",
       "from": "12de8c92-c332-4019-9f4a-40ecba3afbdd",
+      "to": "24810cce-a6cd-46a1-8328-650f6362f75f"
+    },
+    {
+      "id": "933d80b0-2bc8-4e6b-95ca-130c1f30dd3f",
+      "from": "12de8c92-c332-4019-9f4a-40ecba3afbdd",
+      "to": "27b26b25-3288-4711-b8de-2292e4767b14"
+    },
+    {
+      "id": "7c768582-37d4-43bd-b143-3f4ee7971190",
+      "from": "c7b54e14-1793-477c-b854-a0ccdd47b5da",
+      "to": "557755c8-14d1-47af-938a-5f79e558c729"
+    },
+    {
+      "id": "8625a0dc-4b16-46ef-a8d7-ea95f6047551",
+      "from": "7b0dcd5b-51f1-4272-8923-42211a5284ca",
+      "to": "e1215749-dcdc-43ed-9313-475c321cfcce"
+    },
+    {
+      "id": "5be78268-b557-4b9b-baa6-3f97b5b7b700",
+      "from": "d7a2c630-0d7d-47b6-8e27-6a50f8bf7f0d",
+      "to": "0a473b31-7ffa-43e8-88b7-170028fb49be"
+    },
+    {
+      "id": "a90ed153-b36c-44de-ab13-3256afb29e29",
+      "from": "6c6489de-bc54-42f9-9070-85f159f04c14",
       "to": "079c3fb8-f780-4b23-b82c-b7d961ceaee0"
     }
   ],
@@ -47,8 +72,8 @@
         }
       ],
       "position": [
-        72.1875,
-        197.765625
+        184.88314819335938,
+        242.45526123046875
       ],
       "code": "",
       "web_url": "",
@@ -206,8 +231,8 @@
         }
       ],
       "position": [
-        680.1875,
-        456.546875
+        635.4978637695312,
+        431.28753662109375
       ],
       "code": "",
       "web_url": "",
@@ -259,8 +284,233 @@
         }
       ],
       "position": [
-        882.1875,
-        516.15625
+        829.7113647460938,
+        505.66107177734375
+      ],
+      "code": "",
+      "web_url": "",
+      "colour": "#1a5dd9"
+    },
+    {
+      "id": "74b7c22c-084d-4a35-83c9-01edb6f7b543",
+      "name": "stopwatch",
+      "class": "Stopwatch",
+      "ports": [
+        {
+          "base": "",
+          "editable": false,
+          "id": "0cbbee58-31f9-43f2-a4e6-dc78d8cb808c",
+          "input": true,
+          "inputPort": "27b26b25-3288-4711-b8de-2292e4767b14",
+          "name": "",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Time",
+          "editable": true,
+          "id": "739b4645-b53f-4670-abfa-ee890e4e1785",
+          "input": false,
+          "inputPort": false,
+          "name": "Time",
+          "output": false,
+          "outputPort": false,
+          "value": "5:00:00",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Elapsed",
+          "editable": true,
+          "id": "99b0891e-b2c5-428d-a9e4-0df6152141d6",
+          "input": false,
+          "inputPort": false,
+          "name": "Elapsed",
+          "output": true,
+          "outputPort": "c7b54e14-1793-477c-b854-a0ccdd47b5da",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1064.128473654985,
+        451.74803434282126
+      ],
+      "code": "",
+      "web_url": "",
+      "colour": "#05ad27"
+    },
+    {
+      "id": "0c2b58ec-6cb2-400f-b92f-3d899f30fb00",
+      "name": "hunter _input",
+      "class": "Hunter Input",
+      "ports": [
+        {
+          "base": "",
+          "editable": false,
+          "id": "2a57f244-738a-43ff-acf8-ef0ead7299fe",
+          "input": true,
+          "inputPort": "24810cce-a6cd-46a1-8328-650f6362f75f",
+          "name": "",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Answer 1",
+          "editable": true,
+          "id": "d5bb9ad7-6d5b-493b-88ce-76d786feecc3",
+          "input": false,
+          "inputPort": false,
+          "name": "Answer 1",
+          "output": true,
+          "outputPort": "7b0dcd5b-51f1-4272-8923-42211a5284ca",
+          "value": "Yes",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Answer 2",
+          "editable": true,
+          "id": "86735cb4-26ad-4148-b987-ac0a74cb3c51",
+          "input": false,
+          "inputPort": false,
+          "name": "Answer 2",
+          "output": true,
+          "outputPort": "80b760e8-b339-4867-9774-528620dbc1f1",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Answer 3",
+          "editable": true,
+          "id": "b0870f9d-8449-488e-89a8-2234053fd46d",
+          "input": false,
+          "inputPort": false,
+          "name": "Answer 3",
+          "output": true,
+          "outputPort": "9637de31-630c-4812-994d-6fc818059310",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1037.1409346281084,
+        636.1642834166162
+      ],
+      "code": "",
+      "web_url": "",
+      "colour": "#05ad27"
+    },
+    {
+      "id": "c0344325-17c2-48b5-bad0-10081836e65a",
+      "name": "and",
+      "class": "AND",
+      "ports": [
+        {
+          "base": "Condition 1",
+          "editable": false,
+          "id": "f273cfec-b653-46d3-8631-74249b76c89d",
+          "input": true,
+          "inputPort": "557755c8-14d1-47af-938a-5f79e558c729",
+          "name": "Condition 1",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Condition 2",
+          "editable": false,
+          "id": "0ad2db31-7c41-4848-b4c6-aa656b8aebcf",
+          "input": true,
+          "inputPort": "e1215749-dcdc-43ed-9313-475c321cfcce",
+          "name": "Condition 2",
+          "output": false,
+          "outputPort": false,
+          "value": "Yes",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Both satisfied",
+          "editable": true,
+          "id": "116d946e-e105-45da-91df-0f4215ff780e",
+          "input": false,
+          "inputPort": false,
+          "name": "Both satisfied",
+          "output": true,
+          "outputPort": "d7a2c630-0d7d-47b6-8e27-6a50f8bf7f0d",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1301.020753287204,
+        564.7826752111579
+      ],
+      "code": "",
+      "web_url": "",
+      "colour": "#f5b402"
+    },
+    {
+      "id": "f488be28-ffd9-4539-856f-17fdedb8f201",
+      "name": "message_3",
+      "class": "Message",
+      "ports": [
+        {
+          "base": "",
+          "editable": false,
+          "id": "6ce119c1-3f9e-438e-8c7b-31fa34eb6219",
+          "input": true,
+          "inputPort": "0a473b31-7ffa-43e8-88b7-170028fb49be",
+          "name": "",
+          "output": true,
+          "outputPort": "6c6489de-bc54-42f9-9070-85f159f04c14",
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Message",
+          "editable": true,
+          "id": "226b7faa-8a1b-425a-a8d2-9b552ea8ef15",
+          "input": false,
+          "inputPort": false,
+          "name": "Message",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        },
+        {
+          "base": "Sender",
+          "editable": true,
+          "id": "32e4aa26-5f3b-4fca-ab41-4e026a79dd25",
+          "input": false,
+          "inputPort": false,
+          "name": "Sender",
+          "output": false,
+          "outputPort": false,
+          "value": "",
+          "visible": true,
+          "iterator": false
+        }
+      ],
+      "position": [
+        1560.4029276872197,
+        658.6540155720228
       ],
       "code": "",
       "web_url": "",
@@ -286,15 +536,34 @@
         }
       ],
       "position": [
-        1172.1875,
-        527.765625
+        1857.376220703125,
+        686.6932983398438
       ],
       "code": "",
       "web_url": "",
       "colour": "#e8860e"
     }
   ],
-  "stickies": [],
+  "stickies": [
+    {
+      "id": "5daa17a4-34af-4827-9700-4206d602e834",
+      "title": "And gate",
+      "content": "For example, after both a correct answer and at least X minutes",
+      "position": [
+        1320.8994445800781,
+        329.8500671386719
+      ]
+    },
+    {
+      "id": "66127970-3f08-42bd-a8c8-a08605dff22f",
+      "title": "trigger",
+      "content": "Just a location",
+      "position": [
+        606.2248687744141,
+        207.90402221679688
+      ]
+    }
+  ],
   "ui": {
     "showToolboxes": [
       "CityHunt",
