@@ -11,8 +11,6 @@
               "name": "Start",
               "category": "Start/End",
               "toolbox": "CityHunt",
-              "colour": "#f0982e",
-              
               "ports": [
                 {
                   "name": "Start",
@@ -27,8 +25,6 @@
               "name": "End",
               "category": "Start/End",
               "toolbox": "CityHunt",
-              "colour": "#d9821a",
-              
               "ports": [
                 {
                   "name": "Stop",
@@ -43,17 +39,259 @@
         },
         {
           "name": "Messages",
+          "colour": "#1a5dd9",
           "nodes": [
+            {
+              "name": "Message",
+              "category": "Message",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": true,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Message",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Sender",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            }
           ]
         },
         {
           "name": "Triggers",
+          "colour": "#05ad27",
           "nodes": [
+            {
+              "name": "Location",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Coordinates",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Reached",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            },
+            {
+              "name": "Stopwatch",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Time",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Elapsed",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            },
+            {
+              "name": "Time",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Time",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Reached",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            },
+            {
+              "name": "Hunter Input",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Answer 1",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Answer 2",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Answer 3",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            }
           ]
         },
         {
           "name": "Logic",
+          "colour": "#f5b402",
           "nodes": [
+            {
+              "name": "AND",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "Condition 1",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Condition 2",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Both satisfied",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            },
+            {
+              "name": "OR",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "Condition 1",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Condition 2",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "At least one satisfied",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            },
+            {
+              "name": "XOR",
+              "category": "Triggers",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "Condition 1",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Condition 2",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "Exaclty one satisfied",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            }
           ]
         }
       ]
