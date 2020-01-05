@@ -5,11 +5,13 @@
       "categories": [
         {
           "name": "Start/End",
+          "colour": "#e8860e",
           "nodes": [
             {
               "name": "Start",
               "category": "Start/End",
               "toolbox": "CityHunt",
+              "colour": "#f0982e",
               
               "ports": [
                 {
@@ -25,6 +27,7 @@
               "name": "End",
               "category": "Start/End",
               "toolbox": "CityHunt",
+              "colour": "#d9821a",
               
               "ports": [
                 {
