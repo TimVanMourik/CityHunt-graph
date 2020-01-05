@@ -220,7 +220,7 @@
                 },
                 {
                   "name": "Condition 2",
-                  "input": false,
+                  "input": true,
                   "output": false,
                   "visible": true,
                   "editable": true
@@ -249,7 +249,7 @@
                 },
                 {
                   "name": "Condition 2",
-                  "input": false,
+                  "input": true,
                   "output": false,
                   "visible": true,
                   "editable": true
@@ -278,7 +278,7 @@
                 },
                 {
                   "name": "Condition 2",
-                  "input": false,
+                  "input": true,
                   "output": false,
                   "visible": true,
                   "editable": true
