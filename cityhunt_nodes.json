@@ -1,1 +1,60 @@
-{}
+{
+  "toolboxes": [
+    {
+      "name": "CityHunt",
+      "categories": [
+        {
+          "name": "Start/End",
+          "nodes": [
+            {
+              "name": "Start",
+              "category": "Start/End",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "Start",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            },
+            {
+              "name": "End",
+              "category": "Start/End",
+              "toolbox": "CityHunt",
+              
+              "ports": [
+                {
+                  "name": "Stop",
+                  "input": true,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Messages",
+          "nodes": [
+          ]
+        },
+        {
+          "name": "Triggers",
+          "nodes": [
+          ]
+        },
+        {
+          "name": "Logic",
+          "nodes": [
+          ]
+        }
+      ]
+    }
+  ]
+}
+    
