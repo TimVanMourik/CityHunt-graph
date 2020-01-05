@@ -102,6 +102,20 @@
                   "output": true,
                   "visible": true,
                   "editable": true
+                },
+                {
+                  "name": "Time out time",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
+                },
+                {
+                  "name": "On Time Out",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": false
                 }
               ]
             },
@@ -191,11 +205,25 @@
                   "editable": true
                 },
                 {
-                  "name": "Answer 3",
+                  "name": "Other",
                   "input": false,
                   "output": true,
                   "visible": true,
+                  "editable": false
+                },
+                {
+                  "name": "Time out time",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
                   "editable": true
+                },
+                {
+                  "name": "On Time Out",
+                  "input": false,
+                  "output": true,
+                  "visible": true,
+                  "editable": false
                 }
               ]
             }
@@ -260,6 +288,13 @@
                   "output": true,
                   "visible": true,
                   "editable": true
+                },
+                {
+                  "name": "Trigger only once",
+                  "input": false,
+                  "output": false,
+                  "visible": true,
+                  "editable": true
                 }
               ]
             },
@@ -284,7 +319,7 @@
                   "editable": true
                 },
                 {
-                  "name": "Exaclty one satisfied",
+                  "name": "Exactly one satisfied",
                   "input": false,
                   "output": true,
                   "visible": true,
